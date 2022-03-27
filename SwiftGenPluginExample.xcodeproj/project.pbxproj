@@ -13,6 +13,7 @@
 		454C368B27F0FDA900796C53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454C367927F0FDA800796C53 /* ContentView.swift */; };
 		454C368C27F0FDA900796C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454C367A27F0FDA900796C53 /* Assets.xcassets */; };
 		454C368D27F0FDA900796C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454C367A27F0FDA900796C53 /* Assets.xcassets */; };
+		454C369A27F0FFDF00796C53 /* ColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 454C369927F0FFDF00796C53 /* ColorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454C369A27F0FFDF00796C53 /* ColorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +52,7 @@
 				454C367727F0FDA800796C53 /* Shared */,
 				454C368627F0FDA900796C53 /* macOS */,
 				454C368027F0FDA900796C53 /* Products */,
+				454C369827F0FFDF00796C53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +91,13 @@
 			path = Packages;
 			sourceTree = "<group>";
 		};
+		454C369827F0FFDF00796C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +114,9 @@
 			dependencies = (
 			);
 			name = "SwiftGenPluginExample (iOS)";
+			packageProductDependencies = (
+				454C369927F0FFDF00796C53 /* ColorKit */,
+			);
 			productName = "SwiftGenPluginExample (iOS)";
 			productReference = 454C367F27F0FDA900796C53 /* SwiftGenPluginExample.app */;
 			productType = "com.apple.product-type.application";
@@ -454,6 +467,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		454C369927F0FFDF00796C53 /* ColorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ColorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 454C367327F0FDA800796C53 /* Project object */;
 }

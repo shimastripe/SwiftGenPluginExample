@@ -1,6 +1,3 @@
-public struct ColorKit {
-    public private(set) var text = "Hello, World!"
+import SwiftUI
 
-    public init() {
-    }
-}
+public let customTextColor: Color = Color("CustomTextColor", bundle: .module)

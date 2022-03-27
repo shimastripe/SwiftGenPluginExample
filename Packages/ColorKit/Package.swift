@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "ColorKit",
+    platforms: [.iOS(.v13), .macOS(.v10_15), .tvOS(.v13), .watchOS(.v6)],
     products: [
         .library(
             name: "ColorKit",
@@ -13,7 +14,10 @@ let package = Package(
     targets: [
         .target(
             name: "ColorKit",
-            dependencies: []),
+            dependencies: [],
+            resources: [
+                .process("Resources"),
+            ]),
         .testTarget(
             name: "ColorKitTests",
             dependencies: ["ColorKit"]),
