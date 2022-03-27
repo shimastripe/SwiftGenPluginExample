@@ -22,6 +22,7 @@
 		454C367F27F0FDA900796C53 /* SwiftGenPluginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGenPluginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454C368527F0FDA900796C53 /* SwiftGenPluginExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGenPluginExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		454C368727F0FDA900796C53 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		454C369727F0FEED00796C53 /* ColorKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ColorKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		454C367227F0FDA800796C53 = {
 			isa = PBXGroup;
 			children = (
+				454C369627F0FE9800796C53 /* Packages */,
 				454C367727F0FDA800796C53 /* Shared */,
 				454C368627F0FDA900796C53 /* macOS */,
 				454C368027F0FDA900796C53 /* Products */,
@@ -76,6 +78,14 @@
 				454C368727F0FDA900796C53 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		454C369627F0FE9800796C53 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				454C369727F0FEED00796C53 /* ColorKit */,
+			);
+			path = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
